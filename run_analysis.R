@@ -1,8 +1,8 @@
 # Using the dplyr package to manipulate the data.
 library(dplyr)
-library(stringr)
 # Using read_table from the readr package, which is much faster.
 library(readr)
+# Using reshape2 to melt the dataset.
 library(reshape2)
 
 # Convenience function for reading a single vector of values such as
