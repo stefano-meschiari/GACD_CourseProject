@@ -176,14 +176,15 @@ Variables
 The final dataset is saved in `tidy_data.txt`. Each row contains an
 observation. The columns are as follows:
 
--   `subject`: the subject ID.
--   `activity`: the type of activity (LAYING, SITTING, etc.).
+-   `subject`: the subject ID [numeric].
+-   `activity`: the type of activity (LAYING, SITTING, etc.)
+    [character].
 -   `measure`: the measure name, as listed in the raw dataset (e.g.
-    tBodyAcc).
+    tBodyAcc) [character].
 -   `summary_type`: the type of summary in the raw dataset ("mean()" or
-    "std()").
+    "std()") [character].
 -   `direction`: the axis along which the measurement is taken (X/Y/Z or
-    "" if not applicable)
+    "" if not applicable) [character]
 -   `mean_value`: the mean value taken over all the values in the raw
     dataset for given subject, activity, and measure. Values are
-    unitless and normalized within the [-1, 1] domain.
+    unitless and normalized within the [-1, 1] domain [numeric].
