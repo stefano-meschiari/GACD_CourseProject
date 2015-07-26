@@ -185,4 +185,5 @@ observation. The columns are as follows:
 -   `direction`: the axis along which the measurement is taken (X/Y/Z or
     "" if not applicable)
 -   `mean_value`: the mean value taken over all the values in the raw
-    dataset for given subject, activity, and measure.
+    dataset for given subject, activity, and measure. Values are
+    unitless and normalized within the [-1, 1] domain.
