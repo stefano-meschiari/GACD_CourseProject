@@ -5,6 +5,8 @@ library(readr)
 # Using reshape2 to melt the dataset.
 library(reshape2)
 
+library(stringr)
+
 # Convenience function for reading a single vector of values such as
 # features.txt, y_test.txt, etc.
 read_array <- function(fn) {
