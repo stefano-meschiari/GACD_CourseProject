@@ -111,9 +111,9 @@ The procedure is as follows:
 </tbody>
 </table>
 
--   Finally, we group the dataset by the ID variables and summarize the
-    observations by taking the mean. The resulting dataset is formatted
-    as follows (showing first 5 rows):
+-   Finally, the dataset is grouped by all the ID variables and the
+    observations are summarized by taking the mean. The resulting
+    dataset is formatted as follows (showing first 5 rows):
 
 <table>
 <thead>
